@@ -1,0 +1,116 @@
+/*Changing boackground color and font*/
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(231, 229, 226);
+  background-color: #181a1b;
+}
+
+/*Changing style for radio and select tags*/
+input,
+select {
+  margin: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: rgb(231, 229, 226);
+}
+
+center {
+  margin: 0 7%;
+}
+
+/*Positioning the label for each input label*/
+.bodyLabel {
+  position: relative;
+  left: -10.3%;
+}
+
+.fuelLabel {
+  position: relative;
+  left: -1.6%;
+}
+
+.transmissionLabel {
+  position: relative;
+  left: 2.2%;
+}
+
+.priceLabel {
+  position: relative;
+  left: -7.1%;
+}
+
+.cityLabel {
+  position: relative;
+  left: -9.5%;
+}
+
+.highwayLabel {
+  position: relative;
+  left: -7.8%;
+}
+
+.doorLabel {
+  position: relative;
+  left: -4.2%;
+}
+
+.lengthLabel {
+  position: relative;
+  left: -9.3%;
+}
+
+/*Positioning the colon of each input label*/
+#bodyColon {
+  position: relative;
+  left: 2.9%;
+}
+
+#fuelColon{
+  position: relative;
+  left: 7.4%;
+  padding-right: 100px;
+}
+
+#transmissionColon{
+  position: relative;
+  left: 4.9%;
+  padding-right: 118px;
+}
+
+#priceColon{
+  position: relative;
+  left: 5%;
+  padding-right: 40px;
+}
+
+#cityColon{
+  position: relative;
+  left: 4.55%;
+  padding-right: 30px;
+}
+
+#highwayColon{
+  position: relative;
+  left: 1.5%;
+}
+
+#doorColon{
+  position: relative;
+  left: 1.8%;
+}
+
+#lengthColon{
+  position: relative;
+  left: 2.8%;
+  padding: 20px;
+}
+
+/*Styling submit button*/
+#submit{
+  height: 25px;
+  width: 100px;
+  border: solid 1px beige;
+  background-color: #181a1b;
+  color: beige;
+  font-family: "Montserrat", sans-serif;
+}
