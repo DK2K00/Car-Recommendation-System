@@ -27,14 +27,14 @@
             >:</span
           ></label
         >
-        <select name="bodyStyle" id="bodyStyle">
+        <select name="bodyStyle" id="bodyStyle" required>
           <option value="0">Bodystyle</option>
           <option value="3">Sedan</option>
           <option value="2">Hatchback</option>
           <option value="4">Wagon</option>
           <option value="1">Convertible</option>
           <option value="5">Hard Top</option>
-          <option value="noBody">Not Sure</option>
+          <option value="3">Not Sure</option>
         </select>
 
         <br />
@@ -73,7 +73,7 @@
             >:</span
           ></label
         >
-        <select name="priceRange" id="priceRange">
+        <select name="priceRange" id="priceRange" required>
           <option value="0">Price Range</option>
           <option value="445410">&#8377;350000-&#8377;500000</option>
           <option value="569469">&#8377;500000-&#8377;650000</option>
@@ -94,7 +94,7 @@
             >:</span
           ></label
         >
-        <select name="cityKMPL" id="cityKMPL">
+        <select name="cityKMPL" id="cityKMPL" required>
           <option value="0">City Mileage</option>
           <option value="8">5km-10km</option>
           <option value="12">10km-15km</option>
@@ -110,7 +110,7 @@
             >:</span
           ></label
         >
-        <select name="highwayKMPL" id="highwayKMPL">
+        <select name="highwayKMPL" id="highwayKMPL" required>
           <option value="0">Highway Mileage</option>
           <option value="9">5km-10km</option>
           <option value="13">10km-15km</option>
@@ -139,7 +139,8 @@
             >:</span
           ></label
         >
-        <select name="length" id="length">
+        <select name="length" id="length" required>
+          <option value="0">Body Length</option>
           <option value="156">Short</option>
           <option value="172">Medium</option>
           <option value="186">Long</option>
@@ -151,5 +152,6 @@
         <input type="submit" id="submit" value="Submit" />
       </center>
     </form>
+    <script src="/public/backend/form.js"></script>
   </body>
 </html>
