@@ -19,7 +19,7 @@
     </center>
 
     <!--Form to get user preferences from user-->
-    <form action="/recommend" method="POST">
+    <form action="/" method="POST" onsubmit="return inputModel()">
       <center>
         <!--Body style-->
         <label class="bodyLabel" for="bodyStyle">
@@ -89,33 +89,17 @@
         <br />
 
         <!--KMPL inside city-->
-        <label class="cityLabel" for="cityKMPL"
-          >What is your prefered city mileage<span id="cityColon"
+        <label class="mileageLabel" for="mileage"
+          >What is your prefered mileage<span id="mileageColon"
             >:</span
           ></label
         >
-        <select name="cityKMPL" id="cityKMPL" required>
-          <option value="0">City Mileage</option>
+        <select name="mileage" id="mileage" required>
+          <option value="0">Mileage</option>
           <option value="8">5km-10km</option>
           <option value="12">10km-15km</option>
           <option value="17">15+km</option>
           <option value="10">Not Sure</option>
-        </select>
-
-        <br />
-
-        <!--KMPL on highway-->
-        <label class="highwayLabel" for="highwayKMPL"
-          >What is your prefered highway mileage<span id="highwayColon"
-            >:</span
-          ></label
-        >
-        <select name="highwayKMPL" id="highwayKMPL" required>
-          <option value="0">Highway Mileage</option>
-          <option value="9">5km-10km</option>
-          <option value="13">10km-15km</option>
-          <option value="17">15+km</option>
-          <option value="13">Not Sure</option>
         </select>
 
         <br />
@@ -152,6 +136,6 @@
         <input type="submit" id="submit" value="Submit" />
       </center>
     </form>
-    <script src="/public/backend/form.js"></script>
+    <script src="/backend/form.js"></script>
   </body>
 </html>

@@ -39,14 +39,9 @@ center {
   left: -7.1%;
 }
 
-.cityLabel {
+.mileageLabel {
   position: relative;
   left: -9.5%;
-}
-
-.highwayLabel {
-  position: relative;
-  left: -7.8%;
 }
 
 .doorLabel {
@@ -83,26 +78,22 @@ center {
   padding-right: 40px;
 }
 
-#cityColon{
+#mileageColon{
   position: relative;
-  left: 4.55%;
-  padding-right: 30px;
-}
-
-#highwayColon{
-  position: relative;
-  left: 1.5%;
+  left: 6.9%;
+  padding-right: 68px;
 }
 
 #doorColon{
   position: relative;
-  left: 1.8%;
+  left: 2%;
+  padding-right: 10px;
 }
 
 #lengthColon{
   position: relative;
-  left: 2.8%;
-  padding: 20px;
+  left: 4.7%;
+  padding-right: 35px;
 }
 
 /*Styling submit button*/
